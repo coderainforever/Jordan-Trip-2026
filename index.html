@@ -306,4 +306,142 @@
                                 <span class="text-sm font-bold text-jordan-rock uppercase tracking-wider">Sat, Apr 4</span>
                                 <h4 class="text-xl font-bold text-gray-900 mt-1">Jerusalem & Bethlehem Day Trip</h4>
                             </div>
-             
+                            <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-purple-50 text-purple-700 mt-2 md:mt-0">
+                                <i class="fa-solid fa-passport mr-1"></i> Israel Trip
+                            </span>
+                        </div>
+                        <p class="text-gray-600 text-sm mb-2">Early Morning Border Crossing (Allenby Bridge).</p>
+                        <ul class="space-y-2 text-gray-600 text-sm">
+                            <li><i class="fa-solid fa-star-of-david text-blue-500 mr-2"></i><strong>Bethlehem:</strong> Church of the Nativity.</li>
+                            <li><i class="fa-solid fa-star-of-david text-blue-500 mr-2"></i><strong>Jerusalem:</strong> Mt of Olives, Via Dolorosa, Holy Sepulchre, Western Wall.</li>
+                        </ul>
+                        <p class="text-gray-600 text-sm mt-3">Return to Jordan late evening.</p>
+                        <div class="mt-3 text-xs text-gray-500 font-semibold">Overnight: Amman</div>
+                    </div>
+                </div>
+
+                <!-- Day 10 -->
+                <div class="relative pl-12 group">
+                    <div class="absolute left-4 top-2 w-4 h-4 rounded-full bg-jordan-rock border-4 border-white shadow-sm z-10"></div>
+                    <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6 card-hover transition-all duration-300">
+                        <div class="flex flex-col md:flex-row md:items-center justify-between mb-4">
+                            <div>
+                                <span class="text-sm font-bold text-jordan-rock uppercase tracking-wider">Sun, Apr 5</span>
+                                <h4 class="text-xl font-bold text-gray-900 mt-1">Departure</h4>
+                            </div>
+                        </div>
+                        <p class="text-gray-600">Transfer to Queen Alia International Airport.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Map Section -->
+        <div id="map" class="mt-20">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-8 border-b border-gray-200 pb-4">
+                <div>
+                    <h3 class="text-2xl font-serif font-bold text-gray-900">Journey Map</h3>
+                    <p class="text-gray-600 mt-2">Visualizing your route from North to South and the Jerusalem crossing.</p>
+                </div>
+                <a href="https://www.google.com/maps/dir/Queen+Alia+International+Airport/Jerash/Umm+Qais/Amman/Wadi+Musa/Wadi+Rum+Village/Aqaba/King+Hussein+Bridge/Jerusalem/Amman" target="_blank" class="inline-flex items-center text-jordan-rock font-bold hover:text-jordan-red transition-colors mt-4 md:mt-0">
+                    Open Route in Google Maps <i class="fa-solid fa-arrow-up-right-from-square ml-2"></i>
+                </a>
+            </div>
+            
+            <div class="bg-blue-50/50 p-6 rounded-xl shadow-sm border border-gray-100 relative overflow-hidden group">
+                <!-- Abstract SVG Map of Jordan Route -->
+                <div class="flex justify-center">
+                    <svg width="350" height="600" viewBox="0 0 350 600" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full md:w-auto h-auto max-h-[600px]">
+                        <!-- Background Shape (Abstract Jordan) -->
+                        <path d="M100 20 L240 20 L280 100 L320 150 L260 550 L100 580 L60 450 L60 150 Z" fill="#F3E9D2" opacity="0.3"/>
+                        
+                        <!-- Route Line -->
+                        <path d="M180 80 L180 40 L160 20" stroke="#C08552" stroke-width="2" stroke-dasharray="4 4"/> <!-- Jerash/Umm Qais -->
+                        <path d="M180 80 L180 200 L170 350 L200 450 L140 540" stroke="#C08552" stroke-width="3"/> <!-- Southbound -->
+                        <path d="M140 540 L180 80" stroke="#114B5F" stroke-width="2" stroke-dasharray="6 6"/> <!-- Return North for Jerusalem -->
+                        <path d="M180 80 L140 90" stroke="#8B4513" stroke-width="3"/> <!-- Jerusalem Leg -->
+
+                        <!-- Locations -->
+                        <circle cx="160" cy="20" r="4" fill="#1A2F4B"/>
+                        <text x="120" y="25" font-family="Outfit" font-size="10" fill="#1A2F4B">Umm Qais</text>
+
+                        <circle cx="180" cy="80" r="8" fill="#C08552" stroke="white" stroke-width="2"/>
+                        <text x="195" y="85" font-family="Outfit" font-size="14" fill="#C08552" font-weight="bold">AMMAN</text>
+
+                        <circle cx="140" cy="90" r="6" fill="#1A2F4B"/>
+                        <text x="80" y="95" font-family="Outfit" font-size="12" fill="#1A2F4B" font-weight="bold">Jerusalem</text>
+
+                        <circle cx="120" cy="200" r="6" fill="#114B5F"/>
+                        <text x="40" y="205" font-family="Outfit" font-size="12" fill="#114B5F" font-weight="bold">Dead Sea</text>
+
+                        <circle cx="170" cy="350" r="8" fill="#8B4513" stroke="white" stroke-width="2"/>
+                        <text x="185" y="355" font-family="Outfit" font-size="14" fill="#8B4513" font-weight="bold">PETRA</text>
+
+                        <circle cx="200" cy="450" r="6" fill="#C08552"/>
+                        <text x="215" y="455" font-family="Outfit" font-size="12" fill="#C08552" font-weight="bold">Wadi Rum</text>
+
+                        <circle cx="140" cy="540" r="6" fill="#114B5F"/>
+                        <text x="60" y="545" font-family="Outfit" font-size="12" fill="#114B5F" font-weight="bold">Aqaba</text>
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tips Section -->
+        <div id="tips" class="mt-20 grid md:grid-cols-2 gap-8">
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
+                <h3 class="text-2xl font-serif font-bold text-gray-900 mb-6">Logistics: Israel Day Trip</h3>
+                <div class="space-y-4">
+                    <div class="flex items-start">
+                        <i class="fa-solid fa-passport text-jordan-rock mt-1 mr-3 w-5"></i>
+                        <div>
+                            <span class="font-bold text-gray-900">Allenby Bridge (King Hussein):</span>
+                            <p class="text-sm text-gray-500">This is the closest crossing to Amman/Jerusalem. Be prepared for wait times (1-3 hours). No visa on arrival at this border (you must have it arranged if required, though many passports are visa-free for Israel).</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <i class="fa-solid fa-clock text-jordan-rock mt-1 mr-3 w-5"></i>
+                        <div>
+                            <span class="font-bold text-gray-900">Timing:</span>
+                            <p class="text-sm text-gray-500">Tours usually depart Amman at 7:00 AM. If you stayed in Aqaba the night before, you would miss this.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="bg-gray-900 text-gray-400 py-12 mt-20">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <h2 class="font-serif text-2xl text-white mb-4">Jordan & Jerusalem 2026</h2>
+            <div class="flex justify-center space-x-6 text-2xl">
+                <i class="fa-brands fa-whatsapp hover:text-white cursor-pointer"></i>
+                <i class="fa-solid fa-print hover:text-white cursor-pointer" onclick="window.print()"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function copyItinerary() {
+            const text = `Jordan & Jerusalem Itinerary:
+1. Amman Arrival
+2. Jerash & Umm Qais
+3. Madaba, Nebo, Baptism, Dead Sea
+4. Kings Hwy to Petra (Petra by Night)
+5. Petra Full Day
+6. To Wadi Rum
+7. To Aqaba
+8. Aqaba -> Transfer to Amman
+9. Jerusalem Day Trip
+10. Depart`;
+
+            if (navigator.clipboard && window.isSecureContext) {
+                navigator.clipboard.writeText(text).then(() => alert("Copied!"));
+            } else {
+                alert("Use the print button to save PDF!");
+            }
+        }
+    </script>
+</body>
+</html>
