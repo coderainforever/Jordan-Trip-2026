@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jordan Expedition | March 29 - April 8, 2026</title>
+    <title>Jordan & Jerusalem | March 27 - April 5, 2026</title>
     
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -43,7 +43,7 @@
     <style>
         .hero-pattern {
             background-color: #1A2F4B;
-            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23C08552' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23C08552' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
         }
         
         .card-hover:hover {
@@ -75,12 +75,12 @@
             <div class="flex justify-between h-16">
                 <div class="flex items-center">
                     <i class="fa-solid fa-map-location-dot text-jordan-rock text-2xl mr-2"></i>
-                    <span class="font-serif font-bold text-xl tracking-wide text-gray-900">Jordan 2026</span>
+                    <span class="font-serif font-bold text-xl tracking-wide text-gray-900">Jordan & Jerusalem</span>
                 </div>
                 <div class="flex items-center space-x-4">
                     <button onclick="document.getElementById('itinerary').scrollIntoView()" class="text-gray-600 hover:text-jordan-rock px-3 py-2 rounded-md text-sm font-medium">Itinerary</button>
                     <button onclick="document.getElementById('map').scrollIntoView()" class="text-gray-600 hover:text-jordan-rock px-3 py-2 rounded-md text-sm font-medium">Map</button>
-                    <button onclick="document.getElementById('tips').scrollIntoView()" class="text-gray-600 hover:text-jordan-rock px-3 py-2 rounded-md text-sm font-medium">Tips</button>
+                    <button onclick="document.getElementById('tips').scrollIntoView()" class="text-gray-600 hover:text-jordan-rock px-3 py-2 rounded-md text-sm font-medium">Logistics</button>
                     <button onclick="copyItinerary()" class="bg-jordan-rock text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-jordan-red transition-colors">
                         <i class="fa-regular fa-copy mr-1"></i> Copy Plan
                     </button>
@@ -93,32 +93,32 @@
     <div class="hero-pattern text-white py-20 px-4">
         <div class="max-w-4xl mx-auto text-center">
             <div class="inline-block bg-jordan-rock bg-opacity-20 backdrop-blur-sm px-4 py-1 rounded-full text-sm font-semibold tracking-wide mb-4 border border-jordan-rock border-opacity-30">
-                MARCH 29 - APRIL 8, 2026
+                MARCH 27 - APRIL 5, 2026
             </div>
             <h1 class="font-serif text-5xl md:text-7xl font-bold mb-6 leading-tight">
-                The Ancient Kingdom
+                Holy Lands Journey
             </h1>
             <p class="text-xl text-gray-300 max-w-2xl mx-auto mb-10 font-light">
-                An 11-day journey through history, from the Roman ruins of the north to the red sands of the south and the lowest point on Earth.
+                10 Days: Decapolis Cities • Petra • Wadi Rum • Red Sea • Jerusalem
             </p>
             
             <!-- Quick Stats -->
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto bg-white bg-opacity-10 backdrop-blur-md rounded-xl p-6 border border-white border-opacity-10">
                 <div class="text-center">
                     <div class="text-jordan-sand text-lg font-bold"><i class="fa-solid fa-sun mr-2"></i>Weather</div>
-                    <div class="text-sm opacity-80">18°C - 28°C</div>
+                    <div class="text-sm opacity-80">Perfect Spring</div>
                 </div>
                 <div class="text-center">
                     <div class="text-jordan-sand text-lg font-bold"><i class="fa-solid fa-moon mr-2"></i>Ramadan</div>
-                    <div class="text-sm opacity-80">Finished (~Mar 19)</div>
+                    <div class="text-sm opacity-80">Finished</div>
                 </div>
                 <div class="text-center">
-                    <div class="text-jordan-sand text-lg font-bold"><i class="fa-solid fa-person-hiking mr-2"></i>Activity</div>
-                    <div class="text-sm opacity-80">Moderate Walking</div>
+                    <div class="text-jordan-sand text-lg font-bold"><i class="fa-solid fa-shoe-prints mr-2"></i>Pace</div>
+                    <div class="text-sm opacity-80">Comfortable</div>
                 </div>
                 <div class="text-center">
-                    <div class="text-jordan-sand text-lg font-bold"><i class="fa-solid fa-passport mr-2"></i>Visa</div>
-                    <div class="text-sm opacity-80">Jordan Pass Rec.</div>
+                    <div class="text-jordan-sand text-lg font-bold"><i class="fa-solid fa-globe mr-2"></i>Countries</div>
+                    <div class="text-sm opacity-80">Jordan & Israel</div>
                 </div>
             </div>
         </div>
@@ -129,15 +129,15 @@
         
         <!-- Intro Text -->
         <div class="mb-16 text-center max-w-3xl mx-auto">
-            <h2 class="font-serif text-3xl font-bold text-gray-900 mb-4">Trip Overview</h2>
+            <h2 class="font-serif text-3xl font-bold text-gray-900 mb-4">Optimized Itinerary</h2>
             <p class="text-gray-600 leading-relaxed">
-                This itinerary captures the perfect spring window, combining the history of the North (Jerash & Ajloun) with the wonders of the South. You'll arrive just after Ramadan ends, meaning restaurants and sites are fully open.
+                We have fine-tuned your plan. Notably, <strong>Petra by Night</strong> is moved to Monday (Day 4) to match the schedule, and we've added an evening transfer on Day 8 to make the <strong>Jerusalem day trip</strong> logistically possible from the Allenby Bridge.
             </p>
         </div>
 
         <!-- Itinerary Section -->
         <div id="itinerary" class="relative">
-            <h3 class="text-2xl font-bold text-jordan-teal mb-8 pl-4 border-l-4 border-jordan-rock">Daily Itinerary</h3>
+            <h3 class="text-2xl font-bold text-jordan-teal mb-8 pl-4 border-l-4 border-jordan-rock">Daily Plan</h3>
             
             <div class="space-y-8 relative">
                 <div class="timeline-line"></div>
@@ -148,17 +148,19 @@
                     <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6 card-hover transition-all duration-300">
                         <div class="flex flex-col md:flex-row md:items-center justify-between mb-4">
                             <div>
-                                <span class="text-sm font-bold text-jordan-rock uppercase tracking-wider">Sunday, March 29</span>
-                                <h4 class="text-xl font-bold text-gray-900 mt-1">Ahlan wa Sahlan (Welcome to Amman)</h4>
+                                <span class="text-sm font-bold text-jordan-rock uppercase tracking-wider">Fri, Mar 27</span>
+                                <h4 class="text-xl font-bold text-gray-900 mt-1">Easy Start in Amman</h4>
                             </div>
                             <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-blue-50 text-blue-700 mt-2 md:mt-0">
                                 <i class="fa-solid fa-plane-arrival mr-1"></i> Arrival
                             </span>
                         </div>
-                        <p class="text-gray-600 mb-4">Arrival at Queen Alia International Airport (AMM). Transfer to hotel (45 mins). Depending on arrival time, explore Rainbow Street for cafes and views.</p>
-                        <div class="bg-gray-50 rounded-lg p-4 text-sm text-gray-600">
-                            <strong><i class="fa-solid fa-utensils mr-2 text-jordan-rock"></i>Dinner Tip:</strong> Try <em>Sufra</em> on Rainbow Street for authentic Mansaf or Mezze.
-                        </div>
+                        <p class="text-gray-600 mb-2">Light day after travel.</p>
+                        <ul class="space-y-2 text-gray-600 text-sm">
+                            <li><i class="fa-solid fa-check text-jordan-rock mr-2"></i><strong>Morning:</strong> Late breakfast. Visit Amman Citadel (Biblical Rabbath Ammon) & Roman Theatre.</li>
+                            <li><i class="fa-solid fa-check text-jordan-rock mr-2"></i><strong>Evening:</strong> Walk Rainbow Street. Relaxed dinner.</li>
+                        </ul>
+                        <div class="mt-3 text-xs text-gray-500 font-semibold">Overnight: Amman</div>
                     </div>
                 </div>
 
@@ -168,51 +170,36 @@
                     <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6 card-hover transition-all duration-300">
                         <div class="flex flex-col md:flex-row md:items-center justify-between mb-4">
                             <div>
-                                <span class="text-sm font-bold text-jordan-rock uppercase tracking-wider">Monday, March 30</span>
-                                <h4 class="text-xl font-bold text-gray-900 mt-1">Romans, Crusaders & The Citadel</h4>
+                                <span class="text-sm font-bold text-jordan-rock uppercase tracking-wider">Sat, Mar 28</span>
+                                <h4 class="text-xl font-bold text-gray-900 mt-1">Decapolis & Gospel Region</h4>
                             </div>
-                            <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-green-50 text-green-700 mt-2 md:mt-0">
-                                <i class="fa-solid fa-landmark mr-1"></i> History
-                            </span>
                         </div>
-                        <ul class="space-y-3 text-gray-600 mb-4">
-                            <li class="flex items-start"><i class="fa-solid fa-check text-jordan-rock mt-1 mr-3"></i><span><strong>Morning (Jerash):</strong> Drive north (45 mins). Explore the Roman city of Jerash (Biblical <em>Gerasa</em>).</span></li>
-                            <li class="flex items-start"><i class="fa-solid fa-check text-jordan-rock mt-1 mr-3"></i><span><strong>Mid-Day (Ajloun):</strong> Visit <strong>Ajloun Castle</strong>, a 12th-century fortress built by Saladin's general, offering incredible views.</span></li>
-                            <li class="flex items-start"><i class="fa-solid fa-check text-jordan-rock mt-1 mr-3"></i><span><strong>Afternoon (Amman):</strong> Return to Amman. Visit the <strong>Jordan Museum</strong> (history overview) and the Citadel (Jabal al-Qala'a) for sunset.</span></li>
-                            <li class="flex items-start"><i class="fa-solid fa-check text-jordan-rock mt-1 mr-3"></i><span><strong>Evening:</strong> Walk downtown to see the Roman Theater and try 'Knafeh' at Habibah Sweets.</span></li>
+                        <p class="text-gray-600 mb-2">A day of northern history.</p>
+                        <ul class="space-y-2 text-gray-600 text-sm">
+                            <li><i class="fa-solid fa-check text-jordan-rock mr-2"></i><strong>Jerash (Gerasa):</strong> One of the best preserved Roman cities.</li>
+                            <li><i class="fa-solid fa-check text-jordan-rock mr-2"></i><strong>Umm Qais (Gadara):</strong> Site of the Gadarene miracle. Views of Sea of Galilee.</li>
                         </ul>
+                        <div class="mt-3 text-xs text-gray-500 font-semibold">Overnight: Amman</div>
                     </div>
                 </div>
 
                 <!-- Day 3 -->
                 <div class="relative pl-12 group">
-                    <div class="absolute left-4 top-2 w-4 h-4 rounded-full bg-jordan-rock border-4 border-white shadow-sm z-10"></div>
+                    <div class="absolute left-4 top-2 w-4 h-4 rounded-full bg-jordan-teal border-4 border-white shadow-sm z-10"></div>
                     <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6 card-hover transition-all duration-300">
                         <div class="flex flex-col md:flex-row md:items-center justify-between mb-4">
                             <div>
-                                <span class="text-sm font-bold text-jordan-rock uppercase tracking-wider">Tuesday, March 31</span>
-                                <h4 class="text-xl font-bold text-gray-900 mt-1">The Kings Highway to Petra</h4>
-                            </div>
-                            <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-amber-50 text-amber-700 mt-2 md:mt-0">
-                                <i class="fa-solid fa-car-side mr-1"></i> Road Trip
-                            </span>
-                        </div>
-                        <p class="text-gray-600 mb-3">A scenic drive south (approx. 4-5 hours total driving time).</p>
-                        <div class="grid md:grid-cols-3 gap-4 mb-4">
-                            <div class="bg-gray-50 p-3 rounded border-l-2 border-jordan-rock">
-                                <strong class="block text-gray-900">Stop 1: Madaba</strong>
-                                <span class="text-xs text-gray-500">St. George’s Church & the Mosaic Map.</span>
-                            </div>
-                            <div class="bg-amber-50 p-3 rounded border-l-2 border-amber-500">
-                                <strong class="block text-gray-900"><i class="fa-solid fa-book-bible text-amber-600 mr-1"></i> Mt. Nebo</strong>
-                                <span class="text-xs text-gray-600">Where Moses viewed the Promised Land.</span>
-                            </div>
-                            <div class="bg-gray-50 p-3 rounded border-l-2 border-jordan-rock">
-                                <strong class="block text-gray-900">Stop 3: Kerak Castle</strong>
-                                <span class="text-xs text-gray-500">A massive Crusader fortress with underground mazes.</span>
+                                <span class="text-sm font-bold text-jordan-teal uppercase tracking-wider">Sun, Mar 29</span>
+                                <h4 class="text-xl font-bold text-gray-900 mt-1">Spirituality & The Dead Sea</h4>
                             </div>
                         </div>
-                        <p class="text-sm text-jordan-red font-semibold">Overnight in Wadi Musa (Petra).</p>
+                        <ul class="space-y-2 text-gray-600 text-sm">
+                            <li><i class="fa-solid fa-check text-jordan-teal mr-2"></i><strong>Madaba:</strong> St. George’s Church & Mosaic Map.</li>
+                            <li><i class="fa-solid fa-check text-jordan-teal mr-2"></i><strong>Mount Nebo:</strong> Where Moses viewed the Promised Land.</li>
+                            <li><i class="fa-solid fa-check text-jordan-teal mr-2"></i><strong>Baptism Site (Al-Maghtas):</strong> Jordan River access for reflection.</li>
+                            <li><i class="fa-solid fa-check text-jordan-teal mr-2"></i><strong>Evening:</strong> Check into Dead Sea resort. Float & Spa.</li>
+                        </ul>
+                        <div class="mt-3 text-xs text-gray-500 font-semibold">Overnight: Dead Sea</div>
                     </div>
                 </div>
 
@@ -222,22 +209,18 @@
                     <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6 card-hover transition-all duration-300 border-l-4 border-l-jordan-red">
                         <div class="flex flex-col md:flex-row md:items-center justify-between mb-4">
                             <div>
-                                <span class="text-sm font-bold text-jordan-red uppercase tracking-wider">Wednesday, April 1</span>
-                                <h4 class="text-xl font-bold text-gray-900 mt-1">Petra (Full Day & By Night)</h4>
+                                <span class="text-sm font-bold text-jordan-red uppercase tracking-wider">Mon, Mar 30</span>
+                                <h4 class="text-xl font-bold text-gray-900 mt-1">Kings Highway & Petra By Night</h4>
                             </div>
                             <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-red-50 text-red-700 mt-2 md:mt-0">
-                                <i class="fa-solid fa-star mr-1"></i> Highlight
+                                <i class="fa-solid fa-star mr-1"></i> Special Event
                             </span>
                         </div>
-                        <p class="text-gray-600 mb-4">Biblical <em>Sela</em>. Start early (6:30 AM).</p>
-                        <ul class="space-y-2 text-gray-600 text-sm mb-4">
-                            <li class="flex items-center"><i class="fa-solid fa-circle text-xs text-jordan-rock mr-2"></i> Walk the <strong>Siq</strong> to the <strong>Treasury (Al-Khazneh)</strong>.</li>
-                            <li class="flex items-center"><i class="fa-solid fa-circle text-xs text-jordan-rock mr-2"></i> Explore Street of Facades & Royal Tombs.</li>
-                            <li class="flex items-center"><i class="fa-solid fa-circle text-xs text-jordan-rock mr-2"></i> Hike to the <strong>Monastery (Ad Deir)</strong>.</li>
-                        </ul>
-                        <div class="bg-jordan-night text-white p-3 rounded-lg text-sm">
-                            <i class="fa-solid fa-moon text-yellow-400 mr-2"></i> <strong>Petra by Night:</strong> It's Wednesday! Return at 8:30 PM to see the Siq and Treasury lit by 1,500 candles.
+                        <p class="text-gray-600 mb-2">Morning leisure at Dead Sea. Drive the King's Highway stopping at Wadi Mujib Viewpoint and Kerak Castle.</p>
+                        <div class="bg-jordan-night text-white p-3 rounded-lg text-sm mt-3">
+                            <i class="fa-solid fa-moon text-yellow-400 mr-2"></i> <strong>Petra by Night:</strong> We moved this here because it runs on Mondays! Experience the Siq lit by 1,500 candles.
                         </div>
+                        <div class="mt-3 text-xs text-gray-500 font-semibold">Overnight: Petra</div>
                     </div>
                 </div>
 
@@ -247,16 +230,17 @@
                     <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6 card-hover transition-all duration-300">
                         <div class="flex flex-col md:flex-row md:items-center justify-between mb-4">
                             <div>
-                                <span class="text-sm font-bold text-jordan-rock uppercase tracking-wider">Thursday, April 2</span>
-                                <h4 class="text-xl font-bold text-gray-900 mt-1">Little Petra to Wadi Rum</h4>
+                                <span class="text-sm font-bold text-jordan-rock uppercase tracking-wider">Tue, Mar 31</span>
+                                <h4 class="text-xl font-bold text-gray-900 mt-1">Petra Full Exploration</h4>
                             </div>
                         </div>
-                        <p class="text-gray-600 mb-3"><strong>Morning:</strong> Visit "Little Petra" (Siq al-Barid).</p>
-                        <p class="text-gray-600 mb-3"><strong>Afternoon:</strong> Drive to <strong>Wadi Rum</strong> (2 hours). Check into a Bedouin camp.</p>
-                        <p class="text-gray-600 mb-3"><strong>Activity:</strong> 4x4 Jeep tour to see rock bridges, inscriptions, and red dunes at sunset.</p>
-                        <div class="bg-gray-50 rounded-lg p-3 text-sm">
-                            <strong>Dinner:</strong> Enjoy traditional Zarb (Bedouin underground BBQ) and stargazing.
-                        </div>
+                        <p class="text-gray-600 mb-2">Full relaxed day inside the site.</p>
+                        <ul class="space-y-2 text-gray-600 text-sm">
+                            <li><i class="fa-solid fa-circle text-xs text-jordan-rock mr-2"></i>Treasury & Siq</li>
+                            <li><i class="fa-solid fa-circle text-xs text-jordan-rock mr-2"></i>Royal Tombs & Roman Theatre</li>
+                            <li><i class="fa-solid fa-circle text-xs text-jordan-rock mr-2"></i>Monastery (Ad-Deir) hike</li>
+                        </ul>
+                        <div class="mt-3 text-xs text-gray-500 font-semibold">Overnight: Petra</div>
                     </div>
                 </div>
 
@@ -266,12 +250,13 @@
                     <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6 card-hover transition-all duration-300">
                         <div class="flex flex-col md:flex-row md:items-center justify-between mb-4">
                             <div>
-                                <span class="text-sm font-bold text-jordan-rock uppercase tracking-wider">Friday, April 3</span>
-                                <h4 class="text-xl font-bold text-gray-900 mt-1">Desert Morning & The Red Sea</h4>
+                                <span class="text-sm font-bold text-jordan-rock uppercase tracking-wider">Wed, Apr 1</span>
+                                <h4 class="text-xl font-bold text-gray-900 mt-1">To The Desert (Wadi Rum)</h4>
                             </div>
                         </div>
-                        <p class="text-gray-600 mb-3"><strong>Morning:</strong> Optional camel ride at sunrise. Enjoy a traditional Bedouin breakfast.</p>
-                        <p class="text-gray-600"><strong>Afternoon:</strong> Drive south to <strong>Aqaba</strong> (1 hour). Check into a beach resort. Spend the rest of the day relaxing by the pool or Red Sea.</p>
+                        <p class="text-gray-600 mb-2">Late breakfast. Drive to Wadi Rum (1.5 hrs).</p>
+                        <p class="text-gray-600 text-sm"><strong>Afternoon:</strong> 4x4 Jeep tour seeing sand arches and ancient inscriptions. Sunset in the dunes.</p>
+                        <div class="mt-3 text-xs text-gray-500 font-semibold">Overnight: Wadi Rum Luxury Camp</div>
                     </div>
                 </div>
 
@@ -281,46 +266,34 @@
                     <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6 card-hover transition-all duration-300">
                         <div class="flex flex-col md:flex-row md:items-center justify-between mb-4">
                             <div>
-                                <span class="text-sm font-bold text-jordan-teal uppercase tracking-wider">Saturday, April 4</span>
-                                <h4 class="text-xl font-bold text-gray-900 mt-1">Aqaba Marine Life</h4>
-                            </div>
-                            <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-blue-50 text-blue-700 mt-2 md:mt-0">
-                                <i class="fa-solid fa-water mr-1"></i> Relaxation
-                            </span>
-                        </div>
-                        <p class="text-gray-600">Full day in Aqaba. The water temperature is perfect.</p>
-                        <div class="mt-4 grid grid-cols-2 gap-4">
-                            <div class="bg-blue-50 p-3 rounded text-sm text-blue-900">
-                                <strong>Snorkeling:</strong> Head to South Beach (Japanese Garden reef).
-                            </div>
-                            <div class="bg-blue-50 p-3 rounded text-sm text-blue-900">
-                                <strong>Diving:</strong> See the Cedar Pride wreck or military museum.
+                                <span class="text-sm font-bold text-jordan-teal uppercase tracking-wider">Thu, Apr 2</span>
+                                <h4 class="text-xl font-bold text-gray-900 mt-1">Red Sea Sunrise</h4>
                             </div>
                         </div>
+                        <p class="text-gray-600 text-sm">Early sunrise in desert. Drive to Aqaba (1 hr).</p>
+                        <p class="text-gray-600 text-sm mt-2">Relax at a beach resort. Swimming/Snorkeling near Ezion-Geber.</p>
+                        <div class="mt-3 text-xs text-gray-500 font-semibold">Overnight: Aqaba</div>
                     </div>
                 </div>
 
                 <!-- Day 8 -->
                 <div class="relative pl-12 group">
-                    <div class="absolute left-4 top-2 w-4 h-4 rounded-full bg-jordan-teal border-4 border-white shadow-sm z-10"></div>
-                    <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6 card-hover transition-all duration-300 border-l-4 border-l-jordan-teal">
+                    <div class="absolute left-4 top-2 w-4 h-4 rounded-full bg-jordan-rock border-4 border-white shadow-sm z-10"></div>
+                    <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6 card-hover transition-all duration-300">
                         <div class="flex flex-col md:flex-row md:items-center justify-between mb-4">
                             <div>
-                                <span class="text-sm font-bold text-jordan-teal uppercase tracking-wider">Sunday, April 5</span>
-                                <h4 class="text-xl font-bold text-gray-900 mt-1">Canyoning & The Dead Sea</h4>
+                                <span class="text-sm font-bold text-jordan-rock uppercase tracking-wider">Fri, Apr 3</span>
+                                <h4 class="text-xl font-bold text-gray-900 mt-1">Aqaba & Transfer North</h4>
                             </div>
-                            <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-teal-50 text-teal-700 mt-2 md:mt-0">
-                                <i class="fa-solid fa-person-swimming mr-1"></i> Must Do
+                            <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-amber-100 text-amber-800 mt-2 md:mt-0">
+                                <i class="fa-solid fa-triangle-exclamation mr-1"></i> Logistical Move
                             </span>
                         </div>
-                        <p class="text-gray-600 mb-4">Drive north along the Dead Sea Highway.</p>
-                        
-                        <div class="bg-teal-50 rounded-lg p-4 mb-4 border border-teal-100">
-                            <h5 class="font-bold text-teal-900 mb-1"><i class="fa-solid fa-water mr-1"></i> Wadi Mujib (River Arnon)</h5>
-                            <p class="text-sm text-teal-800">The <strong>Siq Trail</strong> (water canyoning) will be open. This is a 2-hour hike through water between massive sandstone cliffs.</p>
+                        <p class="text-gray-600 text-sm mb-3"><strong>Morning:</strong> Leisure in Aqaba. Glass-bottom boat or spa.</p>
+                        <div class="bg-amber-50 border-l-4 border-amber-500 p-3 text-sm">
+                            <strong>Expert Note:</strong> We recommend driving to <strong>Amman</strong> (4 hrs) this evening. The border crossing for Jerusalem (Allenby Bridge) is near Amman. Starting from Aqaba tomorrow would require a 4:00 AM departure.
                         </div>
-
-                        <p class="text-gray-600">Continue to your Dead Sea resort. Sunset float in the salty water.</p>
+                        <div class="mt-3 text-xs text-gray-500 font-semibold">Overnight: Amman (Recommended)</div>
                     </div>
                 </div>
 
@@ -330,15 +303,20 @@
                     <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6 card-hover transition-all duration-300">
                         <div class="flex flex-col md:flex-row md:items-center justify-between mb-4">
                             <div>
-                                <span class="text-sm font-bold text-jordan-rock uppercase tracking-wider">Monday, April 6</span>
-                                <h4 class="text-xl font-bold text-gray-900 mt-1">Lowest Point on Earth</h4>
+                                <span class="text-sm font-bold text-jordan-rock uppercase tracking-wider">Sat, Apr 4</span>
+                                <h4 class="text-xl font-bold text-gray-900 mt-1">Jerusalem & Bethlehem Day Trip</h4>
                             </div>
+                            <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-purple-50 text-purple-700 mt-2 md:mt-0">
+                                <i class="fa-solid fa-passport mr-1"></i> Israel Trip
+                            </span>
                         </div>
-                        <p class="text-gray-600 mb-3">Relaxation day at the Dead Sea. Mud bath experience.</p>
-                        <div class="bg-amber-50 p-4 rounded-lg border border-amber-100">
-                            <strong class="text-amber-800 block mb-1"><i class="fa-solid fa-star-of-life mr-1"></i> Recommended Biblical Site</strong>
-                            <p class="text-gray-700 text-sm">Visit <strong>"Bethany Beyond the Jordan" (Al-Maghtas)</strong>, 15 mins north. The baptism site of Jesus.</p>
-                        </div>
+                        <p class="text-gray-600 text-sm mb-2">Early Morning Border Crossing (Allenby Bridge).</p>
+                        <ul class="space-y-2 text-gray-600 text-sm">
+                            <li><i class="fa-solid fa-star-of-david text-blue-500 mr-2"></i><strong>Bethlehem:</strong> Church of the Nativity.</li>
+                            <li><i class="fa-solid fa-star-of-david text-blue-500 mr-2"></i><strong>Jerusalem:</strong> Mt of Olives, Via Dolorosa, Holy Sepulchre, Western Wall.</li>
+                        </ul>
+                        <p class="text-gray-600 text-sm mt-3">Return to Jordan late evening.</p>
+                        <div class="mt-3 text-xs text-gray-500 font-semibold">Overnight: Amman</div>
                     </div>
                 </div>
 
@@ -348,26 +326,11 @@
                     <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6 card-hover transition-all duration-300">
                         <div class="flex flex-col md:flex-row md:items-center justify-between mb-4">
                             <div>
-                                <span class="text-sm font-bold text-jordan-rock uppercase tracking-wider">Tuesday, April 7</span>
-                                <h4 class="text-xl font-bold text-gray-900 mt-1">Historic As-Salt & Farewell</h4>
+                                <span class="text-sm font-bold text-jordan-rock uppercase tracking-wider">Sun, Apr 5</span>
+                                <h4 class="text-xl font-bold text-gray-900 mt-1">Departure</h4>
                             </div>
                         </div>
-                        <p class="text-gray-600 mb-4">Drive towards Amman. Stop at <strong>As-Salt</strong> (UNESCO World Heritage) to see the Harmony Trail and yellow limestone architecture.</p>
-                        <p class="text-gray-600">Arrive in Amman for a farewell dinner (try <em>Tawaheen al-Hawa</em>).</p>
-                    </div>
-                </div>
-
-                 <!-- Day 11 -->
-                 <div class="relative pl-12 group">
-                    <div class="absolute left-4 top-2 w-4 h-4 rounded-full bg-jordan-rock border-4 border-white shadow-sm z-10"></div>
-                    <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6 card-hover transition-all duration-300">
-                        <div class="flex flex-col md:flex-row md:items-center justify-between mb-4">
-                            <div>
-                                <span class="text-sm font-bold text-jordan-rock uppercase tracking-wider">Wednesday, April 8</span>
-                                <h4 class="text-xl font-bold text-gray-900 mt-1">Ma'a Salama (Goodbye)</h4>
-                            </div>
-                        </div>
-                        <p class="text-gray-600">Transfer to Queen Alia International Airport (AMM) for your departure flight.</p>
+                        <p class="text-gray-600">Transfer to Queen Alia International Airport.</p>
                     </div>
                 </div>
             </div>
@@ -378,9 +341,9 @@
             <div class="flex flex-col md:flex-row justify-between items-end mb-8 border-b border-gray-200 pb-4">
                 <div>
                     <h3 class="text-2xl font-serif font-bold text-gray-900">Journey Map</h3>
-                    <p class="text-gray-600 mt-2">Visualizing your route from North to South and back.</p>
+                    <p class="text-gray-600 mt-2">Visualizing your route from North to South and the Jerusalem crossing.</p>
                 </div>
-                <a href="https://www.google.com/maps/dir/Queen+Alia+International+Airport/Jerash/Amman/Wadi+Musa/Wadi+Rum+Village/Aqaba/Dead+Sea/As-Salt/Queen+Alia+International+Airport" target="_blank" class="inline-flex items-center text-jordan-rock font-bold hover:text-jordan-red transition-colors mt-4 md:mt-0">
+                <a href="https://www.google.com/maps/dir/Queen+Alia+International+Airport/Jerash/Umm+Qais/Amman/Wadi+Musa/Wadi+Rum+Village/Aqaba/King+Hussein+Bridge/Jerusalem/Amman" target="_blank" class="inline-flex items-center text-jordan-rock font-bold hover:text-jordan-red transition-colors mt-4 md:mt-0">
                     Open Route in Google Maps <i class="fa-solid fa-arrow-up-right-from-square ml-2"></i>
                 </a>
             </div>
@@ -393,129 +356,33 @@
                         <path d="M100 20 L240 20 L280 100 L320 150 L260 550 L100 580 L60 450 L60 150 Z" fill="#F3E9D2" opacity="0.3"/>
                         
                         <!-- Route Line -->
-                        <path d="M180 80 L180 40" stroke="#C08552" stroke-width="2" stroke-dasharray="4 4"/> <!-- Jerash Leg -->
+                        <path d="M180 80 L180 40 L160 20" stroke="#C08552" stroke-width="2" stroke-dasharray="4 4"/> <!-- Jerash/Umm Qais -->
                         <path d="M180 80 L180 200 L170 350 L200 450 L140 540" stroke="#C08552" stroke-width="3"/> <!-- Southbound -->
-                        <path d="M140 540 L120 200 L160 160 L180 80" stroke="#114B5F" stroke-width="2" stroke-dasharray="6 6"/> <!-- Return North (Dead Sea) -->
+                        <path d="M140 540 L180 80" stroke="#114B5F" stroke-width="2" stroke-dasharray="6 6"/> <!-- Return North for Jerusalem -->
+                        <path d="M180 80 L140 90" stroke="#8B4513" stroke-width="3"/> <!-- Jerusalem Leg -->
 
                         <!-- Locations -->
-                        
-                        <!-- Jerash -->
-                        <circle cx="180" cy="40" r="6" fill="#1A2F4B"/>
-                        <text x="195" y="45" font-family="Outfit" font-size="12" fill="#1A2F4B" font-weight="bold">Jerash/Ajloun</text>
+                        <circle cx="160" cy="20" r="4" fill="#1A2F4B"/>
+                        <text x="120" y="25" font-family="Outfit" font-size="10" fill="#1A2F4B">Umm Qais</text>
 
-                        <!-- Amman -->
                         <circle cx="180" cy="80" r="8" fill="#C08552" stroke="white" stroke-width="2"/>
-                        <text x="195" y="85" font-family="Outfit" font-size="14" fill="#C08552" font-weight="bold">AMMAN (Start/End)</text>
+                        <text x="195" y="85" font-family="Outfit" font-size="14" fill="#C08552" font-weight="bold">AMMAN</text>
 
-                        <!-- Madaba/Nebo Area -->
-                        <circle cx="170" cy="110" r="4" fill="#8B4513"/>
-                        
-                        <!-- Dead Sea -->
+                        <circle cx="140" cy="90" r="6" fill="#1A2F4B"/>
+                        <text x="80" y="95" font-family="Outfit" font-size="12" fill="#1A2F4B" font-weight="bold">Jerusalem</text>
+
                         <circle cx="120" cy="200" r="6" fill="#114B5F"/>
                         <text x="40" y="205" font-family="Outfit" font-size="12" fill="#114B5F" font-weight="bold">Dead Sea</text>
 
-                        <!-- Petra -->
                         <circle cx="170" cy="350" r="8" fill="#8B4513" stroke="white" stroke-width="2"/>
                         <text x="185" y="355" font-family="Outfit" font-size="14" fill="#8B4513" font-weight="bold">PETRA</text>
 
-                        <!-- Wadi Rum -->
                         <circle cx="200" cy="450" r="6" fill="#C08552"/>
                         <text x="215" y="455" font-family="Outfit" font-size="12" fill="#C08552" font-weight="bold">Wadi Rum</text>
 
-                        <!-- Aqaba -->
                         <circle cx="140" cy="540" r="6" fill="#114B5F"/>
-                        <text x="60" y="545" font-family="Outfit" font-size="12" fill="#114B5F" font-weight="bold">Aqaba (Red Sea)</text>
-
+                        <text x="60" y="545" font-family="Outfit" font-size="12" fill="#114B5F" font-weight="bold">Aqaba</text>
                     </svg>
-                </div>
-                
-                <div class="absolute bottom-6 left-6 bg-white/90 backdrop-blur px-4 py-3 rounded-lg shadow-lg text-xs text-gray-600 border border-gray-100 hidden md:block">
-                    <div class="flex items-center mb-1"><div class="w-3 h-3 rounded-full bg-jordan-rock mr-2"></div> Southbound (Kings Hwy)</div>
-                    <div class="flex items-center"><div class="w-3 h-3 rounded-full bg-jordan-teal mr-2"></div> Northbound (Dead Sea Hwy)</div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Taste & Treasures Section -->
-        <div id="culture" class="mt-20">
-            <div class="mb-8 border-b border-gray-200 pb-4">
-                <h3 class="text-2xl font-serif font-bold text-gray-900">Taste & Treasures</h3>
-                <p class="text-gray-600 mt-2">Authentic flavors and unique keepsakes found only in the Kingdom.</p>
-            </div>
-
-            <div class="grid md:grid-cols-2 gap-8">
-                <!-- Cuisine Column -->
-                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
-                    <div class="bg-jordan-rock text-white p-4">
-                        <h4 class="font-serif text-xl font-bold"><i class="fa-solid fa-utensils mr-2"></i> Jordanian Cuisine</h4>
-                    </div>
-                    <div class="p-6 space-y-6">
-                        <div class="flex items-start">
-                            <div class="bg-orange-100 p-2 rounded-lg text-orange-700 mr-4 mt-1"><i class="fa-solid fa-bowl-rice"></i></div>
-                            <div>
-                                <h5 class="font-bold text-gray-900">Mansaf (The National Dish)</h5>
-                                <p class="text-sm text-gray-600 mt-1">A Bedouin feast of lamb cooked in a sauce of fermented dried yogurt (<em>Jameed</em>) and served with rice. You eat it with your right hand!</p>
-                            </div>
-                        </div>
-                        <div class="flex items-start">
-                            <div class="bg-red-100 p-2 rounded-lg text-red-700 mr-4 mt-1"><i class="fa-solid fa-fire-burner"></i></div>
-                            <div>
-                                <h5 class="font-bold text-gray-900">Zarb (Bedouin BBQ)</h5>
-                                <p class="text-sm text-gray-600 mt-1">Meat and vegetables buried in an underground oven with hot coals for hours. You will likely eat this for dinner in Wadi Rum.</p>
-                            </div>
-                        </div>
-                        <div class="flex items-start">
-                            <div class="bg-yellow-100 p-2 rounded-lg text-yellow-700 mr-4 mt-1"><i class="fa-solid fa-cheese"></i></div>
-                            <div>
-                                <h5 class="font-bold text-gray-900">Knafeh</h5>
-                                <p class="text-sm text-gray-600 mt-1">A rich dessert made with thin noodle-like pastry soaked in sweet sugar-based syrup and layered with cheese. Best eaten warm in downtown Amman.</p>
-                            </div>
-                        </div>
-                        <div class="flex items-start">
-                            <div class="bg-green-100 p-2 rounded-lg text-green-700 mr-4 mt-1"><i class="fa-solid fa-leaf"></i></div>
-                            <div>
-                                <h5 class="font-bold text-gray-900">Limonana</h5>
-                                <p class="text-sm text-gray-600 mt-1">The ultimate refresher: Frozen lemon juice blended with obscene amounts of fresh mint.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Souvenirs Column -->
-                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
-                    <div class="bg-jordan-teal text-white p-4">
-                        <h4 class="font-serif text-xl font-bold"><i class="fa-solid fa-bag-shopping mr-2"></i> What to Bring Home</h4>
-                    </div>
-                    <div class="p-6 space-y-6">
-                        <div class="flex items-start">
-                            <div class="bg-teal-100 p-2 rounded-lg text-teal-700 mr-4 mt-1"><i class="fa-solid fa-pump-soap"></i></div>
-                            <div>
-                                <h5 class="font-bold text-gray-900">Dead Sea Products</h5>
-                                <p class="text-sm text-gray-600 mt-1">The mineral-rich black mud and bath salts are world-famous for skin health. Much cheaper to buy here than imported abroad.</p>
-                            </div>
-                        </div>
-                        <div class="flex items-start">
-                            <div class="bg-purple-100 p-2 rounded-lg text-purple-700 mr-4 mt-1"><i class="fa-solid fa-puzzle-piece"></i></div>
-                            <div>
-                                <h5 class="font-bold text-gray-900">Mosaic Art</h5>
-                                <p class="text-sm text-gray-600 mt-1">Madaba is the city of mosaics. You can buy incredible hand-made mosaic plates or frames directly from the workshops there.</p>
-                            </div>
-                        </div>
-                        <div class="flex items-start">
-                            <div class="bg-red-100 p-2 rounded-lg text-red-700 mr-4 mt-1"><i class="fa-solid fa-user-ninja"></i></div>
-                            <div>
-                                <h5 class="font-bold text-gray-900">Shemagh (Red Scarf)</h5>
-                                <p class="text-sm text-gray-600 mt-1">The traditional red-and-white checkered scarf. Practical for the desert sun and a symbol of Jordanian heritage.</p>
-                            </div>
-                        </div>
-                        <div class="flex items-start">
-                            <div class="bg-amber-100 p-2 rounded-lg text-amber-700 mr-4 mt-1"><i class="fa-solid fa-mortar-pestle"></i></div>
-                            <div>
-                                <h5 class="font-bold text-gray-900">Za'atar & Sumac</h5>
-                                <p class="text-sm text-gray-600 mt-1">Visit a spice market (Souq) for high-quality Za'atar (thyme blend) or Sumac (a citrusy red spice used in salads).</p>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -523,52 +390,23 @@
         <!-- Tips Section -->
         <div id="tips" class="mt-20 grid md:grid-cols-2 gap-8">
             <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
-                <h3 class="text-2xl font-serif font-bold text-gray-900 mb-6">April Packing List</h3>
-                <ul class="space-y-4">
-                    <li class="flex items-start">
-                        <i class="fa-solid fa-shirt text-jordan-rock mt-1 mr-3 w-5"></i>
+                <h3 class="text-2xl font-serif font-bold text-gray-900 mb-6">Logistics: Israel Day Trip</h3>
+                <div class="space-y-4">
+                    <div class="flex items-start">
+                        <i class="fa-solid fa-passport text-jordan-rock mt-1 mr-3 w-5"></i>
                         <div>
-                            <span class="font-bold text-gray-900">Layers:</span>
-                            <p class="text-sm text-gray-500">Amman/Petra can be cool (15°C) in evenings, while Aqaba/Dead Sea will be hot (28°C). Bring a light fleece and t-shirts.</p>
+                            <span class="font-bold text-gray-900">Allenby Bridge (King Hussein):</span>
+                            <p class="text-sm text-gray-500">This is the closest crossing to Amman/Jerusalem. Be prepared for wait times (1-3 hours). No visa on arrival at this border (you must have it arranged if required, though many passports are visa-free for Israel).</p>
                         </div>
-                    </li>
-                    <li class="flex items-start">
-                        <i class="fa-solid fa-shoe-prints text-jordan-rock mt-1 mr-3 w-5"></i>
+                    </div>
+                    <div class="flex items-start">
+                        <i class="fa-solid fa-clock text-jordan-rock mt-1 mr-3 w-5"></i>
                         <div>
-                            <span class="font-bold text-gray-900">Footwear:</span>
-                            <p class="text-sm text-gray-500">Sturdy hiking boots/sneakers for Petra. Water shoes (essential!) for Wadi Mujib and Dead Sea (rocky salt crystals).</p>
-                        </div>
-                    </li>
-                    <li class="flex items-start">
-                        <i class="fa-solid fa-user-shield text-jordan-rock mt-1 mr-3 w-5"></i>
-                        <div>
-                            <span class="font-bold text-gray-900">Modesty:</span>
-                            <p class="text-sm text-gray-500">Loose trousers/skirts and covered shoulders are respectful in cities. Swimwear is fine at resorts and Wadi Mujib.</p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="bg-jordan-teal text-white p-8 rounded-2xl shadow-lg relative overflow-hidden">
-                <div class="relative z-10">
-                    <h3 class="text-2xl font-serif font-bold mb-6">Traveler Essentials</h3>
-                    <div class="space-y-5">
-                        <div>
-                            <strong class="block text-jordan-sky mb-1">Jordan Pass</strong>
-                            <p class="text-sm opacity-90">Buy the "Jordan Wanderer" pass online before you fly. It includes your Visa fees (40 JD) and Petra entry (50 JD), saving you money instantly.</p>
-                        </div>
-                        <div>
-                            <strong class="block text-jordan-sky mb-1">Ramadan Status</strong>
-                            <p class="text-sm opacity-90">Ramadan 2026 ends around March 19. Your trip is during the "Eid" aftermath or normal spring season. Alcohol is available, and all restaurants operate normally.</p>
-                        </div>
-                        <div>
-                            <strong class="block text-jordan-sky mb-1">Water</strong>
-                            <p class="text-sm opacity-90">Do not drink tap water. Bottled or filtered water only.</p>
+                            <span class="font-bold text-gray-900">Timing:</span>
+                            <p class="text-sm text-gray-500">Tours usually depart Amman at 7:00 AM. If you stayed in Aqaba the night before, you would miss this.</p>
                         </div>
                     </div>
                 </div>
-                <!-- Decor -->
-                <i class="fa-solid fa-compass absolute -bottom-10 -right-10 text-9xl text-white opacity-10"></i>
             </div>
         </div>
 
@@ -576,72 +414,32 @@
 
     <footer class="bg-gray-900 text-gray-400 py-12 mt-20">
         <div class="max-w-6xl mx-auto px-4 text-center">
-            <h2 class="font-serif text-2xl text-white mb-4">Jordan Expedition 2026</h2>
-            <p class="text-sm mb-8">Prepared for your March 29 - April 8 adventure.</p>
+            <h2 class="font-serif text-2xl text-white mb-4">Jordan & Jerusalem 2026</h2>
             <div class="flex justify-center space-x-6 text-2xl">
                 <i class="fa-brands fa-whatsapp hover:text-white cursor-pointer"></i>
-                <i class="fa-regular fa-envelope hover:text-white cursor-pointer"></i>
                 <i class="fa-solid fa-print hover:text-white cursor-pointer" onclick="window.print()"></i>
-            </div>
-            <div class="mt-8 text-xs text-gray-600">
-                &copy; 2026 Custom Itinerary Generator. Prices and opening times subject to change.
             </div>
         </div>
     </footer>
 
     <script>
         function copyItinerary() {
-            const text = `Jordan Itinerary (Mar 29 - Apr 8):
-1. Arrive Amman
-2. Jerash, Ajloun, Amman City
-3. Kings Highway to Petra
-4. Petra Full Day & By Night
-5. Little Petra -> Wadi Rum
-6. Wadi Rum -> Aqaba
-7. Aqaba Relax
-8. Aqaba -> Wadi Mujib -> Dead Sea
-9. Dead Sea Relax
-10. Dead Sea -> As-Salt -> Amman
-11. Depart`;
+            const text = `Jordan & Jerusalem Itinerary:
+1. Amman Arrival
+2. Jerash & Umm Qais
+3. Madaba, Nebo, Baptism, Dead Sea
+4. Kings Hwy to Petra (Petra by Night)
+5. Petra Full Day
+6. To Wadi Rum
+7. To Aqaba
+8. Aqaba -> Transfer to Amman
+9. Jerusalem Day Trip
+10. Depart`;
 
-            function fallbackCopyTextToClipboard(text) {
-                const textArea = document.createElement("textarea");
-                textArea.value = text;
-                textArea.style.position = "fixed"; // Avoid scrolling to bottom
-                textArea.style.left = "-9999px";
-                textArea.style.top = "0";
-                document.body.appendChild(textArea);
-                textArea.focus();
-                textArea.select();
-
-                try {
-                    const successful = document.execCommand('copy');
-                    const msg = successful ? 'successful' : 'unsuccessful';
-                    if (successful) {
-                        alert("Itinerary summary copied to clipboard!");
-                    } else {
-                        console.error('Fallback: Copying text command was ' + msg);
-                        alert("Unable to copy automatically. Please copy manually.");
-                    }
-                } catch (err) {
-                    console.error('Fallback: Oops, unable to copy', err);
-                    alert("Unable to copy automatically. Please copy manually.");
-                }
-                document.body.removeChild(textArea);
-            }
-            
-            // Modern clipboard API with fallback
             if (navigator.clipboard && window.isSecureContext) {
-                navigator.clipboard.writeText(text)
-                    .then(() => {
-                        alert("Itinerary summary copied to clipboard!");
-                    })
-                    .catch((err) => {
-                        console.warn('Clipboard write failed, trying fallback', err);
-                        fallbackCopyTextToClipboard(text);
-                    });
+                navigator.clipboard.writeText(text).then(() => alert("Copied!"));
             } else {
-                fallbackCopyTextToClipboard(text);
+                alert("Use the print button to save PDF!");
             }
         }
     </script>
